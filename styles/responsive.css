@@ -16,6 +16,16 @@
   .menu-btn {
     margin-top: 30px;
   }
+
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 10px 10px;
+  }
+  .banner-content {
+    padding: 10px;
+    width: 100%;
+  }
 }
 
 /* tablet view */
@@ -27,5 +37,12 @@
 
   .logo {
     margin-bottom: 32px;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    padding: 10px;
+    width: 100%;
   }
 }
