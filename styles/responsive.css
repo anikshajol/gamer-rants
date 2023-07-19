@@ -34,9 +34,10 @@
 .overlay{
   height: auto;
 }
+
   .games-button .btn{
     padding: 5px;
-    width: 200px;
+
   }
 
   .play-games{
@@ -48,6 +49,7 @@
     width: 100%;
     padding: 0;
   }
+  
 
 
 }
