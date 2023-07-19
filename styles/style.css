@@ -266,13 +266,14 @@ menu ul li a,
 /* games button styles */
 
 .games-button {
+  width: 1040px;
+  border: 1px solid red;
   margin-top: 230px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  row-gap: 20px;
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  place-items: center;
+  gap: 30px;
 }
 
 .games-button .btn {
