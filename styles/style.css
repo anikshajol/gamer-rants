@@ -262,7 +262,7 @@ menu ul li a,
 /* games button styles */
 
 .games-button {
-  width: 1040px;
+  width: 1140px;
   margin-top: 230px;
   display: flex;
   justify-content: center;
@@ -279,7 +279,7 @@ menu ul li a,
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: 0;
+  border: 1px solid #ff42a400;
   transition: border 0.3s linear;
   text-decoration: none;
   margin-bottom: 10px;
