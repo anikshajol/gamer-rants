@@ -30,8 +30,9 @@
   .online-games .description {
     margin-bottom: 10px;
   }
+
   .overlay {
-    height: auto;
+    height: 88%;
   }
 
   .games-button {
@@ -41,8 +42,6 @@
   }
 
   .games-button .btn span {
-    /* padding: 5px; */
-
     font-size: 0.8rem;
   }
 

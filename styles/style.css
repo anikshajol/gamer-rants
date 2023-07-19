@@ -206,7 +206,7 @@ menu ul li a,
   height: 80%;
   opacity: 0;
   transition: 0.5s ease-in-out;
-  background-color: rgba(0, 0, 0, 0.637);
+  background-color: rgba(0, 0, 0, 0.796);
   border-radius: 16px;
   border: 5px solid #ff42a5;
 }
@@ -223,10 +223,6 @@ menu ul li a,
 
 .overlay a {
   text-decoration: none;
-}
-
-.fa-user:hover {
-  color: #eee;
 }
 
 /* play online games area*/
