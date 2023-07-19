@@ -269,9 +269,10 @@ menu ul li a,
   margin-top: 230px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  /* justify-content: center;
+  row-gap: 20px;
+  justify-content: center;
   align-items: center;
-  place-items: center; */
+  place-items: center;
 }
 
 .games-button .btn {
@@ -285,6 +286,7 @@ menu ul li a,
   border: 0;
   transition: border 0.3s linear;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .games-button .btn img {
