@@ -35,7 +35,11 @@
   color: transparent;
   -webkit-background-clip: text;
 }
-
+.text-linear-secondary{
+  background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
 .btn-primary {
   border: 0;
   border-radius: 48px;
@@ -105,6 +109,9 @@ menu ul li a,
   border: 0;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 /* banner area */
@@ -179,17 +186,53 @@ menu ul li a,
   max-width: 100%;
   height: 80%;
   object-fit: cover;
+  display: block;
+  border-radius: 16px;
+
 }
 
 .online-games-card {
-  /* width: 20vw; */
+
+  position: relative;
+  width: 100%;
 }
 
-.online-games-card:hover img {
-  background-image: url(../images/play-button\ 1.svg);
-  background-color: black;
-  background-blend-mode: overlay;
+.online-games-card:hover .overlay{
+  opacity: 1;
 }
+.overlay{
+position: absolute;
+inset: 0;
+width: 100%;
+height: 80%;
+opacity: 0;
+transition: .5s ease-in-out;
+background-color: rgba(0, 0, 0, 0.637);
+border-radius: 16px;
+border: 5px solid #ff42a5;
+}
+
+.icon{
+  color: white;
+  /* font-size: 100px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+}
+.icon i{
+  font-size: 3rem;
+}
+.overlay a{
+  text-decoration: none;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
 
 /* play online games area*/
 
