@@ -197,10 +197,11 @@ menu ul li a,
   display: flex;
   align-items: center;
   gap: 114px;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
+  height: 90vh  ;
 }
 .play-games-content {
- 
+ width: 462px;
 
 }
 
@@ -216,7 +217,6 @@ margin-top: 10px;
 }
 
 .play-games-image{
-  border: 1px solid red;
 
    margin-right: 100px;
   position: relative;
@@ -232,6 +232,115 @@ margin-top: 10px;
   /* top: 400px; */
   bottom:-120px ;
   right: -130px;
+
  
+
+}
+
+
+/* games button */
+
+.games-button{
+  margin-top: 230px;
+
+}
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+
+}
+
+
+
+.games-button .btn{
+  border-radius: 50px;
+background: #FFF;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 0;
+}
+
+.games-button .btn span{
+  color: #0B0223;
+
+font-size: 1.2rem;
+
+font-weight: 600;
+
+}
+
+
+/* footer */
+
+footer{
+  margin-top: 130px;
+  background: #0B0223;
+  padding: 120px 30px;
+
+
+}
+
+footer .logo{
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+footer .logo h3{
+  color: #fff;
+
+}
+
+.footer-menu ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+
+}
+
+
+
+.footer-menu ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-facebook{
+color:  #0165E1; 
+background-color: white;
+border-radius: 50%;
+
+}
+
+.fa-brands{
+  font-size: 3rem;
+}
+
+.icon-section{
+  margin: 60px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-menu .terms-and-conditions li a{
+  color: rgba(255, 255, 255, 0.60);
+}
+
+.footer-menu .copyright{
+  margin-top: 28px;
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
 
 }

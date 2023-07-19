@@ -31,9 +31,23 @@
 
     margin-bottom: 10px;
   }
+
+  .games-button .btn{
+    padding: 5px;
+    width: 200px;
+  }
+
+  .play-games{
+    align-items: start;
+    justify-content: space-between;
+  }
   .play-games-content{
     text-align: center;
+    width: 100%;
+    padding: 0;
   }
+
+
 }
 
 /* tablet view */
@@ -42,11 +56,14 @@
   .nav-section {
     flex-direction: column;
   }
-
+.play-games{
+  height: 100%;
+  text-align: center;
+}
   .logo {
     margin-bottom: 32px;
   }
-  .banner-container {
+  .banner-container,.play-games {
     flex-direction: column-reverse;
   }
   .banner-content {
