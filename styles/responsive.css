@@ -18,7 +18,7 @@
     margin-top: 30px;
   }
 
-  .banner-container,.play-games {
+  .banner-container {
     flex-direction: column-reverse;
     gap: 20px;
     padding: 10px 10px;
@@ -40,8 +40,8 @@
   }
 
   .play-games{
-    align-items: start;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
   }
   .play-games-content{
     text-align: center;

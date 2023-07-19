@@ -200,6 +200,7 @@ menu ul li a,
 .online-games-card:hover .overlay{
   opacity: 1;
 }
+
 .overlay{
 position: absolute;
 inset: 0;
@@ -252,7 +253,6 @@ margin-top: 10px;
 .play-games-image .main-image {
   max-width: 100%;
   object-fit: cover;
-  
 
 }
 
@@ -266,10 +266,9 @@ margin-top: 10px;
 
 
 .support-image {
-  /* transform: translate(500px, -200px); */
+ 
   max-width: 90%;
   position: absolute;
-  /* top: 400px; */
   bottom:-120px ;
   right: -130px;
 
@@ -300,7 +299,7 @@ margin-top: 10px;
 
 
 .games-button .btn{
-  border-radius: 50px;
+border-radius: 50px;
 background: #FFF;
 padding: 10px;
 display: flex;
