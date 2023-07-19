@@ -341,13 +341,7 @@ footer .logo h3 {
   text-decoration: none;
 }
 
-.fa-facebook {
-  color: #0165e1;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.fa-brands {
+footer .fa-brands {
   font-size: 3rem;
 }
 
