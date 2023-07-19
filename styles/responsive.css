@@ -1,4 +1,4 @@
-/*  */
+/* small devices */
 
 @media screen and (max-width: 576px) {
   .nav {
@@ -24,50 +24,60 @@
     padding: 10px 10px;
   }
   .banner-content {
-    padding: 10px;
+    padding: 2px;
     width: 100%;
   }
   .online-games .description {
-
     margin-bottom: 10px;
   }
-.overlay{
-  height: auto;
-}
-
-  .games-button .btn{
-    padding: 5px;
-
+  .overlay {
+    height: auto;
   }
 
-  .play-games{
+  .games-button {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .games-button .btn span {
+    /* padding: 5px; */
+    font-size: 0.8rem;
+  }
+
+  .play-games {
     flex-direction: column-reverse;
     margin-bottom: 0px;
+    height: auto;
   }
-  .play-games-content{
+  .play-games-content {
     text-align: center;
     width: 100%;
     padding: 0;
   }
-  
+  .play-games-content h3 {
+    font-size: 2rem;
+  }
 
-
+  .footer-menu ul {
+    flex: 1;
+    text-align: center;
+  }
 }
 
-/* tablet view */
+/* medium devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .nav-section {
     flex-direction: column;
   }
-.play-games{
-  height: 100%;
-  text-align: center;
-}
+  .play-games {
+    height: 100%;
+    text-align: center;
+  }
   .logo {
     margin-bottom: 32px;
   }
-  .banner-container,.play-games {
+  .banner-container,
+  .play-games {
     flex-direction: column-reverse;
   }
   .banner-content {
