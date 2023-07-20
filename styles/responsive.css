@@ -41,6 +41,10 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .games-button .btn {
+    padding: 0;
+  }
+
   .games-button .btn span {
     font-size: 0.8rem;
   }
@@ -57,6 +61,11 @@
   }
   .play-games-content h3 {
     font-size: 2rem;
+  }
+
+  footer {
+    width: 100%;
+    padding: 120px 10px;
   }
 
   .footer-menu ul {
